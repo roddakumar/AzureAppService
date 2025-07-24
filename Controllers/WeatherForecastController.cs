@@ -21,5 +21,24 @@ namespace AppService.Controllers
         {
             return _context.Teachers.ToList();
         }
+
+        [HttpPost(Name = "InsertTeaccher")]
+        public IActionResult Post([FromBody] TeacherCreateDto teacher)
+        {
+            var standard =  _context.Standards.Find(teacher.StandardId);
+            if (standard == null)
+                return NotFound($"Standard ID {teacher.StandardId} not found.");
+            var data = new Teacher
+            {
+                FirstName = teacher.FirstName,
+                LastName = teacher.LastName,
+                StandardId = teacher.StandardId,
+            };
+            _context.Teachers.Add(data);
+
+            _context.SaveChanges();
+
+            return Ok(_context.Teachers.ToList());
+        }
     }
 }

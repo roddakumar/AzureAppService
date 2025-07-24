@@ -5629,11 +5629,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodda\\OneDrive\\Desktop\\New folder (2)\\AppService\\AppService.csproj",
+      "projectUniqueName": "C:\\AppService\\AppService.csproj",
       "projectName": "AppService",
-      "projectPath": "C:\\Users\\rodda\\OneDrive\\Desktop\\New folder (2)\\AppService\\AppService.csproj",
+      "projectPath": "C:\\AppService\\AppService.csproj",
       "packagesPath": "C:\\Users\\rodda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodda\\OneDrive\\Desktop\\New folder (2)\\AppService\\obj\\",
+      "outputPath": "C:\\AppService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
