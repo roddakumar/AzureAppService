@@ -38,7 +38,7 @@ namespace AppService.Controllers
 
             _context.SaveChanges();
 
-            return Ok(_context.Teachers.ToList());
+            return Ok(_context.Teachers.OrderByDescending(x=>x.TeacherId).ToList());
         }
     }
 }
