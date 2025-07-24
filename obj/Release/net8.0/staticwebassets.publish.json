@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lLEVhVb+QKgF7LxW4zHpfvCKZ+TLA8AIG+/y4bxFMMc=",
+  "Source": "AppService",
+  "BasePath": "_content/AppService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
